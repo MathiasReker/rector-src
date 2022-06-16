@@ -10,7 +10,7 @@ class HeavyClass
 {
     public function __construct()
     {
-        if (rand(0, 1)) {
+        if (mt_rand(0, 1)) {
             throw new RuntimeException();
         }
     }

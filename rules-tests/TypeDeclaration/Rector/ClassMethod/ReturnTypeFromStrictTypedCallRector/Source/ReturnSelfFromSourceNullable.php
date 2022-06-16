@@ -8,7 +8,7 @@ final class ReturnSelfFromSourceNullable
 {
     public static function fromEvent() : ?self
     {
-        if (rand(0, 1)) {
+        if (mt_rand(0, 1)) {
             new self;
         }
 
