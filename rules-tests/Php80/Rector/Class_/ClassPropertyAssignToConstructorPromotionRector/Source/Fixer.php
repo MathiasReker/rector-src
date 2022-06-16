@@ -6,7 +6,7 @@ namespace Rector\Tests\Php80\Rector\Class_\ClassPropertyAssignToConstructorPromo
 
 final class Fixer
 {
-    public function something()
+    public function something(): void
     {
     }
 }

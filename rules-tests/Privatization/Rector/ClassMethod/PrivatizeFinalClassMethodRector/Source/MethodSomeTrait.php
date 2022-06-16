@@ -8,7 +8,7 @@ trait MethodSomeTrait
 {
     abstract protected function configureRoutes();
 
-    public function run()
+    public function run(): void
     {
         $this->configureRoutes();
     }

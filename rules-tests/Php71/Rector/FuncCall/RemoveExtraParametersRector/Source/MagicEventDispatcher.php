@@ -14,7 +14,7 @@ final class MagicEventDispatcher
      *
      * @param string|null $eventName
      */
-    public function dispatch($event/*, string $eventName = null*/)
+    public function dispatch($event/*, string $eventName = null*/): void
     {
         $eventName = 1 < \func_num_args() ? \func_get_arg(1) : null;
     }

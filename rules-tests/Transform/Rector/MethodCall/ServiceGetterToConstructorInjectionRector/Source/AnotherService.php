@@ -6,7 +6,7 @@ namespace Rector\Tests\Transform\Rector\MethodCall\ServiceGetterToConstructorInj
 
 final class AnotherService
 {
-    public function run()
+    public function run(): void
     {
     }
 }

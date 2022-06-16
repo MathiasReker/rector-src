@@ -6,12 +6,12 @@ namespace Rector\Tests\Php71\Rector\FuncCall\RemoveExtraParametersRector\Source;
 
 final class SomeExternalClass
 {
-    public function hide($value)
+    public function hide($value): void
     {
 
     }
 
-    public static function seek($value)
+    public static function seek($value): void
     {
 
     }

@@ -6,7 +6,7 @@ namespace Rector\Tests\DeadCode\Rector\ClassMethod\RemoveUselessParamTagRector\S
 
 class SomeClass implements SomeInterface
 {
-    public function run()
+    public function run(): void
     {
     }
 }

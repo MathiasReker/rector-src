@@ -6,7 +6,7 @@ namespace Rector\Tests\DeadCode\Rector\ClassMethod\RemoveUnusedPrivateMethodRect
 
 final class AnotherCaller
 {
-    public function skip()
+    public function skip(): void
     {
     }
 }

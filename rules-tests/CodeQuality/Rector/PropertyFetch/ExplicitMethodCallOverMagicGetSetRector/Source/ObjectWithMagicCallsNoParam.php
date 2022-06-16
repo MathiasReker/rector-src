@@ -18,7 +18,7 @@ final class ObjectWithMagicCallsNoParam
         return $this->name;
     }
 
-    public function setName()
+    public function setName(): void
     {
         $this->name = 'test';
     }

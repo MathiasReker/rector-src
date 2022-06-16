@@ -6,12 +6,12 @@ namespace Rector\Tests\Php71\Rector\FuncCall\RemoveExtraParametersRector\Source;
 
 final class MethodWithFuncGetArgs
 {
-    public static function call($me)
+    public static function call($me): void
     {
         $us = func_get_args();
     }
 
-    public static function betterCall($me)
+    public static function betterCall($me): void
     {
         $us = better_func_get_args();
     }

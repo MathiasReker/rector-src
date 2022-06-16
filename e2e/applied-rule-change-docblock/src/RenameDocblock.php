@@ -3,6 +3,6 @@
 /**
  * @param DateTime $someOldClass
  */
-function someFunction($someOldClass)
+function someFunction($someOldClass): void
 {
 }

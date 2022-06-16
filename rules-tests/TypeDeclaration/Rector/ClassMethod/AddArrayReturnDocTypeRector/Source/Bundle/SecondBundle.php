@@ -11,42 +11,42 @@ use Symfony\Component\HttpKernel\Bundle\BundleInterface;
 final class SecondBundle implements BundleInterface
 {
 
-    public function boot()
+    public function boot(): void
     {
 
     }
 
-    public function shutdown()
+    public function shutdown(): void
     {
 
     }
 
-    public function build(ContainerBuilder $container)
+    public function build(ContainerBuilder $container): void
     {
 
     }
 
-    public function getContainerExtension()
+    public function getContainerExtension(): void
     {
 
     }
 
-    public function getName()
+    public function getName(): void
     {
 
     }
 
-    public function getNamespace()
+    public function getNamespace(): void
     {
 
     }
 
-    public function getPath()
+    public function getPath(): void
     {
 
     }
 
-    public function setContainer(ContainerInterface $container = null)
+    public function setContainer(ContainerInterface $container = null): void
     {
 
     }

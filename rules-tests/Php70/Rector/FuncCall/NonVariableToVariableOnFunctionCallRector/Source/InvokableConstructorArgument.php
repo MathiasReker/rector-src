@@ -6,7 +6,7 @@ namespace Rector\Tests\Php70\Rector\FuncCall\NonVariableToVariableOnFunctionCall
 
 final class InvokableConstructorArgument
 {
-    public function __invoke(&$bar)
+    public function __invoke(&$bar): void
     {
     }
 }

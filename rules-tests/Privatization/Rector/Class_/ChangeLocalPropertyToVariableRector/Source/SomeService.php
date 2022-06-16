@@ -6,7 +6,7 @@ namespace Rector\Tests\Privatization\Rector\Class_\ChangeLocalPropertyToVariable
 
 final class SomeService
 {
-    public function whatever()
+    public function whatever(): void
     {
     }
 }

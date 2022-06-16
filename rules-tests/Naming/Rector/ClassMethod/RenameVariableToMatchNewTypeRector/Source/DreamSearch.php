@@ -6,7 +6,7 @@ namespace Rector\Tests\Naming\Rector\ClassMethod\RenameVariableToMatchNewTypeRec
 
 final class DreamSearch
 {
-    public function reachIt()
+    public function reachIt(): void
     {
     }
 }

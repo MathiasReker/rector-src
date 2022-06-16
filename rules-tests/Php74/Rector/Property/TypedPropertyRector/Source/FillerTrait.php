@@ -8,12 +8,12 @@ use stdClass;
 
 trait FillerTrait
 {
-    public function process(stdClass $stdClass)
+    public function process(stdClass $stdClass): void
     {
         $this->property = $stdClass;
     }
 
-    public function process2(stdClass $stdClass)
+    public function process2(stdClass $stdClass): void
     {
         self::$someStaticProperty = $stdClass;
     }

@@ -6,7 +6,7 @@ use Rector\Tests\NodeTypeResolver\Source\AnotherClass;
 
 class ParentCall extends AnotherClass
 {
-    public function getParameters()
+    public function getParameters(): void
     {
         parent::getParameters();
     }

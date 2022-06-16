@@ -10,7 +10,7 @@ final class OtherClass3
     {
     }
 
-    public function someMethod()
+    public function someMethod(): void
     {
     }
 }

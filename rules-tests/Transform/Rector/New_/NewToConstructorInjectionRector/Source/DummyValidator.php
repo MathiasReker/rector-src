@@ -6,7 +6,7 @@ namespace Rector\Tests\Transform\Rector\New_\NewToConstructorInjectionRector\Sou
 
 final class DummyValidator
 {
-    public function validate($number)
+    public function validate($number): void
     {
     }
 }

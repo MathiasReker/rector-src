@@ -6,7 +6,7 @@ namespace Rector\Tests\Privatization\Rector\Property\ChangeReadOnlyPropertyWithD
 
 class ReferencedInStaticCall
 {
-    public static function process(array &$value)
+    public static function process(array &$value): void
     {
     }
 }

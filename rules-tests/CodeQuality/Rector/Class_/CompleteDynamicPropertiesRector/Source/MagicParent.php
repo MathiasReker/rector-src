@@ -6,11 +6,11 @@ namespace Rector\Tests\CodeQuality\Rector\Class_\CompleteDynamicPropertiesRector
 
 class MagicParent
 {
-    public function __set($key, $value)
+    public function __set($key, $value): void
     {
     }
 
-    public function __get($key)
+    public function __get($key): void
     {
     }
 }

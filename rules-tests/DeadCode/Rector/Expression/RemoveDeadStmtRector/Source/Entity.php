@@ -8,7 +8,7 @@ use InvalidArgumentException;
 
 class Entity
 {
-    public function __get($name)
+    public function __get($name): void
     {
         if ($name === 'invalid') {
             throw new InvalidArgumentException();

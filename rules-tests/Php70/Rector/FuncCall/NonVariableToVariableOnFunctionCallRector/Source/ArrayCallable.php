@@ -6,11 +6,11 @@ namespace Rector\Tests\Php70\Rector\FuncCall\NonVariableToVariableOnFunctionCall
 
 final class ArrayCallable
 {
-    public static function someStaticMethod(&$bar)
+    public static function someStaticMethod(&$bar): void
     {
     }
 
-    public function someMethod(&$bar)
+    public function someMethod(&$bar): void
     {
     }
 }

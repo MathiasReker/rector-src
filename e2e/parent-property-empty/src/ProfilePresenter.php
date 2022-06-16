@@ -16,7 +16,7 @@ abstract class MyBasePresenter extends Nette\Application\UI\Presenter
 
 class ProfilePresenter extends MyBasePresenter
 {
-    public function profileFormSucceed(Form $form)
+    public function profileFormSucceed(Form $form): void
     {
         $this->user->password = Passwords::hash($form->getValues()->password);
     }

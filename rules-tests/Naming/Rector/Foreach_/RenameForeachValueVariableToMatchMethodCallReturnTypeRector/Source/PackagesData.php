@@ -12,7 +12,7 @@ use IteratorAggregate;
 class PackagesData implements IteratorAggregate
 {
 
-    public function getIterator()
+    public function getIterator(): void
     {
         // TODO: Implement getIterator() method.
     }

@@ -18,7 +18,7 @@ final class ObjectWithMagicCallsVariadicParam
         return $this->name;
     }
 
-    public function setName(...$params)
+    public function setName(...$params): void
     {
         if (isset($params[1])) {
             $this->name = $params[0] . $params[1];

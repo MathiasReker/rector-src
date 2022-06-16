@@ -6,18 +6,18 @@ namespace Rector\Tests\Visibility\Rector\ClassMethod\ChangeMethodVisibilityRecto
 
 class ParentObject
 {
-    private function toBePublicMethod() {
+    private function toBePublicMethod(): void {
 
     }
 
-    static function toBePublicStaticMethod() {
+    static function toBePublicStaticMethod(): void {
 
     }
 
-    protected function toBeProtectedMethod() {
+    protected function toBeProtectedMethod(): void {
 
     }
-    private function toBePrivateMethod() {
+    private function toBePrivateMethod(): void {
 
     }
 }

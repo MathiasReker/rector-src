@@ -6,7 +6,7 @@ namespace Rector\Tests\NodeTypeResolver\Source;
 
 class AnotherClass
 {
-    public function getParameters()
+    public function getParameters(): void
     {
     }
 

@@ -6,7 +6,7 @@ namespace Rector\Tests\Transform\Rector\New_\NewToStaticCallRector\Source;
 
 final class IntoStaticClass
 {
-    public static function run()
+    public static function run(): void
     {
 
     }

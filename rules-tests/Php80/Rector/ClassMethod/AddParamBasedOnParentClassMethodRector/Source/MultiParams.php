@@ -4,7 +4,7 @@ namespace Rector\Tests\Php80\Rector\ClassMethod\AddParamBasedOnParentClassMethod
 
 class MultiParams
 {
-    public function execute($foo, $bar)
+    public function execute($foo, $bar): void
     {
     }
 }

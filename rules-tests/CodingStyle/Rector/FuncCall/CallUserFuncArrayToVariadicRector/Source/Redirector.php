@@ -6,7 +6,7 @@ namespace Rector\Tests\CodingStyle\Rector\FuncCall\CallUserFuncArrayToVariadicRe
 
 final class Redirector
 {
-    public function redirect($first, $second)
+    public function redirect($first, $second): void
     {
     }
 }

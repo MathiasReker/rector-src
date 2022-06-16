@@ -6,9 +6,9 @@ namespace Rector\Tests\Php70\Rector\FuncCall\NonVariableToVariableOnFunctionCall
 
 final class VariousCallsClass
 {
-    public static function staticMethod(&$bar) {}
+    public static function staticMethod(&$bar): void {}
 
-    public function baz(&$bar) {}
+    public function baz(&$bar): void {}
 
     public function child(): ChildClass
     {

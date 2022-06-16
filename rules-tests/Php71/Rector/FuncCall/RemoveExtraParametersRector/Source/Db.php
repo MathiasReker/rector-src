@@ -6,7 +6,7 @@ namespace Rector\Tests\Php71\Rector\FuncCall\RemoveExtraParametersRector\Source;
 
 final class Db
 {
-    public function delete($id)
+    public function delete($id): void
     {
     }
 }

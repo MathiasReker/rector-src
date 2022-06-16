@@ -4,7 +4,7 @@ namespace Rector\Tests\DowngradePhp80\Rector\MethodCall\DowngradeReflectionPrope
 
 class SomeClassHasGetDefaultValue
 {
-    public function getDefaultValue()
+    public function getDefaultValue(): void
     {
     }
 }

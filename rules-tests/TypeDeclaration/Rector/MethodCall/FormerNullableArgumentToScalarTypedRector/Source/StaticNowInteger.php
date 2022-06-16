@@ -6,7 +6,7 @@ namespace Rector\Tests\TypeDeclaration\Rector\MethodCall\FormerNullableArgumentT
 
 class StaticNowInteger
 {
-    public function setValue(int $value)
+    public function setValue(int $value): void
     {
     }
 }

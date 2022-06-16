@@ -6,7 +6,7 @@ namespace Rector\Tests\Transform\Rector\MethodCall\CallableInMethodCallToVariabl
 
 final class DummyCache
 {
-    public function save($key, $value)
+    public function save($key, $value): void
     {
     }
 }

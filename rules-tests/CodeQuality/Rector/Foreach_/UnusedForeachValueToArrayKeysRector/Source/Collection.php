@@ -6,7 +6,7 @@ namespace Rector\Tests\CodeQuality\Rector\Foreach_\UnusedForeachValueToArrayKeys
 
 class Collection implements \IteratorAggregate
 {
-    public function getIterator()
+    public function getIterator(): void
     {
     }
 }

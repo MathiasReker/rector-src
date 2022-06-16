@@ -6,7 +6,7 @@ namespace Rector\Tests\Php74\Rector\Property\TypedPropertyRector\Source;
 
 abstract class FillerAbstract
 {
-    public function process(AnotherClass $anotherClass)
+    public function process(AnotherClass $anotherClass): void
     {
         $this->property = $anotherClass;
     }

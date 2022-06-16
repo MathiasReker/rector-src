@@ -6,7 +6,7 @@ namespace Rector\Tests\Php70\Rector\MethodCall\ThisCallOnStaticMethodToStaticCal
 
 final class AnotherClass
 {
-    public static function eat()
+    public static function eat(): void
     {
     }
 }

@@ -6,7 +6,7 @@ namespace Rector\Tests\Transform\Rector\FuncCall\FuncCallToMethodCallRector\Sour
 
 final class SomeTranslator
 {
-    public function translateMethod($value)
+    public function translateMethod($value): void
     {
     }
 }

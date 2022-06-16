@@ -6,7 +6,7 @@ namespace Rector\Tests\Transform\Rector\MethodCall\MethodCallToPropertyFetchRect
 
 final class RenameToProperty
 {
-    public function getEntityManager()
+    public function getEntityManager(): void
     {
     }
 }

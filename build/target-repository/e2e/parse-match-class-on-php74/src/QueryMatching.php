@@ -8,7 +8,7 @@ use Elastica\Query\MatchQuery;
 
 final class QueryMatching
 {
-    public function run()
+    public function run(): void
     {
         $matchQuery = new MatchQuery();
     }

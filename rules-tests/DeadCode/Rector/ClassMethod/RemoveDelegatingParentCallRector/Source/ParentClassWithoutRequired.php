@@ -8,7 +8,7 @@ use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 class ParentClassWithoutRequired
 {
-    public function setEventDispatcher(EventDispatcherInterface $eventDispatcher)
+    public function setEventDispatcher(EventDispatcherInterface $eventDispatcher): void
     {
     }
 }

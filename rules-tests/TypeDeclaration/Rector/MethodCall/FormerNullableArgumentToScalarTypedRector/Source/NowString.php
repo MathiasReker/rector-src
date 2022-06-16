@@ -6,7 +6,7 @@ namespace Rector\Tests\TypeDeclaration\Rector\MethodCall\FormerNullableArgumentT
 
 final class NowString
 {
-    public function setValue(string $value)
+    public function setValue(string $value): void
     {
     }
 }

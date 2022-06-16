@@ -6,7 +6,7 @@ namespace Rector\Tests\Naming\Rector\Class_\RenamePropertyToMatchTypeRector\Sour
 
 trait UseEliteManagerTrait
 {
-    public function trigger($name)
+    public function trigger($name): void
     {
         $this->eventManager->trigger($name);
     }

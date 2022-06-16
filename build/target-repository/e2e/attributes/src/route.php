@@ -7,7 +7,7 @@ class SomeController
     /**
      * @Route()
      */
-    public function someMethod()
+    public function someMethod(): void
     {
     }
 }

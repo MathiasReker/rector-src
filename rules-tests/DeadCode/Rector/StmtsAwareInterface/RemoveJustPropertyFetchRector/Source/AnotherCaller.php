@@ -6,7 +6,7 @@ namespace Rector\Tests\DeadCode\Rector\StmtsAwareInterface\RemoveJustPropertyFet
 
 final class AnotherCaller
 {
-    public function callMe()
+    public function callMe(): void
     {
     }
 }

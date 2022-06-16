@@ -6,7 +6,7 @@ namespace Rector\Tests\Transform\Rector\MethodCall\MethodCallToMethodCallRector\
 
 final class SecondDependency
 {
-    public function away()
+    public function away(): void
     {
     }
 }

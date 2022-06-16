@@ -8,12 +8,12 @@ final class SomeContainer
 {
     public $parameters;
 
-    public function addService($name, $service)
+    public function addService($name, $service): void
     {
 
     }
 
-    public function getService($name)
+    public function getService($name): void
     {
 
     }

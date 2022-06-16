@@ -11,7 +11,7 @@ class ActionClass
      */
     private $someChildValueObject;
 
-    public function someFunction()
+    public function someFunction(): void
     {
         $this->someChildValueObject = new SomeChild('value');
 

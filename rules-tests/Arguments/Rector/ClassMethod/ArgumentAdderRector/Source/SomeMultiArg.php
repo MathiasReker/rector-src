@@ -6,7 +6,7 @@ namespace Rector\Tests\Arguments\Rector\ClassMethod\ArgumentAdderRector\Source;
 
 class SomeMultiArg
 {
-    public function run($a = 1, $b = 2, $c = 3)
+    public function run($a = 1, $b = 2, $c = 3): void
     {
     }
 }

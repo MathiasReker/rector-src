@@ -6,5 +6,5 @@ namespace Rector\Tests\Php70\Rector\FuncCall\NonVariableToVariableOnFunctionCall
 
 final class ChildClass
 {
-    public function bar(&$bar) {}
+    public function bar(&$bar): void {}
 }

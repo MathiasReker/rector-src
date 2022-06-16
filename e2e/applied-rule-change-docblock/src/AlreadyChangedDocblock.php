@@ -3,6 +3,6 @@
 /**
  * @param DateTimeInterface $someOldClass
  */
-function someFunction($someOldClass)
+function someFunction($someOldClass): void
 {
 }

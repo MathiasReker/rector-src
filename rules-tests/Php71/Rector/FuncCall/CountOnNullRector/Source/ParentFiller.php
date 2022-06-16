@@ -6,7 +6,7 @@ namespace Rector\Tests\Php71\Rector\FuncCall\CountOnNullRector\Source;
 
 class ParentFiller
 {
-    public static function fill()
+    public static function fill(): void
     {
         static::$property = [];
     }

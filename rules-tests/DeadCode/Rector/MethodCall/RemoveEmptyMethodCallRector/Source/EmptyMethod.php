@@ -6,7 +6,7 @@ namespace Rector\Tests\DeadCode\Rector\MethodCall\RemoveEmptyMethodCallRector\So
 
 class EmptyMethod
 {
-    public function run()
+    public function run(): void
     {
     }
 }

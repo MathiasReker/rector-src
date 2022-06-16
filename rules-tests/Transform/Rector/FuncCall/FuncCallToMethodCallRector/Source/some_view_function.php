@@ -8,7 +8,7 @@ if (function_exists('Rector\Tests\Removing\Rector\FuncCall\FuncCallToMethodCallR
     return;
 }
 
-function some_view_function()
+function some_view_function(): void
 {
 
 }

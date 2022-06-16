@@ -29,42 +29,42 @@ class Collection implements \Countable, \IteratorAggregate, \ArrayAccess
     /**
      * {@inheritDoc}
      */
-    public function offsetExists($offset)
+    public function offsetExists($offset): void
     {
     }
 
     /**
      * {@inheritDoc}
      */
-    public function offsetGet($offset)
+    public function offsetGet($offset): void
     {
     }
 
     /**
      * {@inheritDoc}
      */
-    public function offsetSet($offset, $value)
+    public function offsetSet($offset, $value): void
     {
     }
 
     /**
      * {@inheritDoc}
      */
-    public function offsetUnset($offset)
+    public function offsetUnset($offset): void
     {
     }
 
     /**
      * {@inheritDoc}
      */
-    public function count()
+    public function count(): void
     {
     }
 
     /**
      * {@inheritDoc}
      */
-    public function getIterator()
+    public function getIterator(): void
     {
     }
 }

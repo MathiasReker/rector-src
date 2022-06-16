@@ -6,7 +6,7 @@ namespace Rector\Tests\Transform\Rector\MethodCall\MethodCallToMethodCallRector\
 
 final class FirstDependency
 {
-    public function go()
+    public function go(): void
     {
     }
 }

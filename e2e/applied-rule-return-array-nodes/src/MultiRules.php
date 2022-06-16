@@ -11,7 +11,7 @@ final class MultiRules
         }
     }
 
-    private function notUsed()
+    private function notUsed(): void
     {
     }
 }

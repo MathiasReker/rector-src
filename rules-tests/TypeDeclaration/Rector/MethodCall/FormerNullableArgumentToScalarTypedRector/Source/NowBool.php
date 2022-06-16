@@ -6,7 +6,7 @@ namespace Rector\Tests\TypeDeclaration\Rector\MethodCall\FormerNullableArgumentT
 
 final class NowBool
 {
-    public function setValue(bool $value)
+    public function setValue(bool $value): void
     {
     }
 }

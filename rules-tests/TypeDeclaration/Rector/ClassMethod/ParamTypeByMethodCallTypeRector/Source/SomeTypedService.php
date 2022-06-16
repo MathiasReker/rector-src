@@ -6,11 +6,11 @@ namespace Rector\Tests\TypeDeclaration\Rector\ClassMethod\ParamTypeByMethodCallT
 
 final class SomeTypedService
 {
-    public function run(string $name)
+    public function run(string $name): void
     {
     }
 
-    public static function fun($surname, string $name)
+    public static function fun($surname, string $name): void
     {
     }
 }

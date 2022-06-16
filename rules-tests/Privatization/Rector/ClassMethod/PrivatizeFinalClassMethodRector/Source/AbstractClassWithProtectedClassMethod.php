@@ -6,7 +6,7 @@ namespace Rector\Tests\Privatization\Rector\ClassMethod\PrivatizeFinalClassMetho
 
 abstract class AbstractClassWithProtectedClassMethod
 {
-    protected function getName()
+    protected function getName(): void
     {
     }
 }

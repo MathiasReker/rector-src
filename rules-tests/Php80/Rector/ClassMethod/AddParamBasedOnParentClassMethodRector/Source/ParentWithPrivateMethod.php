@@ -4,7 +4,7 @@ namespace Rector\Tests\Php80\Rector\ClassMethod\AddParamBasedOnParentClassMethod
 
 class ParentWithPrivateMethod
 {
-    private function execute($foo)
+    private function execute($foo): void
     {
     }
 }

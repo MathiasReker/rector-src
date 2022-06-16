@@ -75,7 +75,7 @@ class Route
         }
     }
 
-    public function setPath($path)
+    public function setPath($path): void
     {
         $this->path = $path;
     }
@@ -85,7 +85,7 @@ class Route
         return $this->path;
     }
 
-    public function setLocalizedPaths(array $localizedPaths)
+    public function setLocalizedPaths(array $localizedPaths): void
     {
         $this->localizedPaths = $localizedPaths;
     }
@@ -95,7 +95,7 @@ class Route
         return $this->localizedPaths;
     }
 
-    public function setHost($pattern)
+    public function setHost($pattern): void
     {
         $this->host = $pattern;
     }
@@ -105,7 +105,7 @@ class Route
         return $this->host;
     }
 
-    public function setName($name)
+    public function setName($name): void
     {
         $this->name = $name;
     }
@@ -115,7 +115,7 @@ class Route
         return $this->name;
     }
 
-    public function setRequirements($requirements)
+    public function setRequirements($requirements): void
     {
         $this->requirements = $requirements;
     }
@@ -125,7 +125,7 @@ class Route
         return $this->requirements;
     }
 
-    public function setOptions($options)
+    public function setOptions($options): void
     {
         $this->options = $options;
     }
@@ -135,7 +135,7 @@ class Route
         return $this->options;
     }
 
-    public function setDefaults($defaults)
+    public function setDefaults($defaults): void
     {
         $this->defaults = $defaults;
     }
@@ -145,7 +145,7 @@ class Route
         return $this->defaults;
     }
 
-    public function setSchemes($schemes)
+    public function setSchemes($schemes): void
     {
         $this->schemes = \is_array($schemes) ? $schemes : [$schemes];
     }
@@ -155,7 +155,7 @@ class Route
         return $this->schemes;
     }
 
-    public function setMethods($methods)
+    public function setMethods($methods): void
     {
         $this->methods = \is_array($methods) ? $methods : [$methods];
     }
@@ -165,7 +165,7 @@ class Route
         return $this->methods;
     }
 
-    public function setCondition($condition)
+    public function setCondition($condition): void
     {
         $this->condition = $condition;
     }

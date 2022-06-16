@@ -12,7 +12,7 @@ use IteratorAggregate;
 class NodeDependencies implements IteratorAggregate
 {
 
-    public function getIterator()
+    public function getIterator(): void
     {
         // TODO: Implement getIterator() method.
     }

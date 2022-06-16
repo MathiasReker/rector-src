@@ -18,7 +18,7 @@ final class ObjectWithMagicCallsMultiParam
         return $this->name;
     }
 
-    public function setName(string $name, string $value)
+    public function setName(string $name, string $value): void
     {
         $this->name = $name . $value;
     }

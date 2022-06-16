@@ -13,7 +13,7 @@ final class OtherClass
         $this->property = $property;
     }
 
-    public function someMethod()
+    public function someMethod(): void
     {
     }
 }

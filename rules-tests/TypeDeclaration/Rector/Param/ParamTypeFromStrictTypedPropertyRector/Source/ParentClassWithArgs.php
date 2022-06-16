@@ -6,7 +6,7 @@ namespace Rector\Tests\TypeDeclaration\Rector\Param\ParamTypeFromStrictTypedProp
 
 class ParentClassWithArgs
 {
-    public function redirect(string $path, $args = [])
+    public function redirect(string $path, $args = []): void
     {
     }
 }

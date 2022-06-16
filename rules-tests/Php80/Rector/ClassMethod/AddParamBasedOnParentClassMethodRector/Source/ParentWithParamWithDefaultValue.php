@@ -4,7 +4,7 @@ namespace Rector\Tests\Php80\Rector\ClassMethod\AddParamBasedOnParentClassMethod
 
 class ParentWithParamWithDefaultValue
 {
-    public function execute($foo = true)
+    public function execute($foo = true): void
     {
     }
 }
